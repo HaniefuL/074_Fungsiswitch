@@ -8,7 +8,7 @@ void input()
     cout << "Masukan Bilangan Pertama =";
     cin >> bilSatu;
     cout << "Masukan Bilangan Kedua = ";
-    cin >> bilDua
+    cin >> bilDua;
 }
 
 float penjumlahan(float a, float b)
@@ -25,7 +25,7 @@ float perkalian(float a, float b)
 }
 float pengurangan(float a, float b)
 {
-    return a - b,
+    return a - b;
 }
 
 int main()
@@ -46,21 +46,21 @@ int main()
 
         switch (pilihan)
         {
-            Case 1:
-            Input();
-            cout << "Hasil Penjumlahan =" << penjumlahan(bilsatu, bilDua) << endl;
+            case 1:
+            input();
+            cout << "Hasil Penjumlahan =" << penjumlahan(bilSatu, bilDua) << endl;
             break;
-            Case 2:
-             Input();
-            cout << "Hasil Pembagian =" << pembagian(bilsatu, bilDua) << endl;
+            case 2:
+            input();
+            cout << "Hasil Pembagian =" << pembagian(bilSatu, bilDua) << endl;
             break;
             case 3:
-             Input();
-            cout << "Hasil Perkalian =" << perkalian(bilsatu, bilDua) << endl;
+            input();
+            cout << "Hasil Perkalian =" << perkalian(bilSatu, bilDua) << endl;
             break;
             case 4:
-             Input();
-            cout << "Hasil pengurangan =" << pengurangan(bilsatu, bilDua) << endl;
+            input();
+            cout << "Hasil pengurangan =" << pengurangan(bilSatu, bilDua) << endl;
             break;
             case 5:
             break;
