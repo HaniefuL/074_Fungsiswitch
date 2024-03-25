@@ -34,7 +34,7 @@ int main()
 
     do
     {
-        cout << "===========================" << endl;
+        cout << "===============================" << endl;
         cout << "MENU" << endl;
         cout << "1. Penjumlahan " << endl;
         cout << "2. Pembagian " << endl;
@@ -60,16 +60,15 @@ int main()
             break;
             case 4:
              Input();
-            cout << "Hasil pengurangan =" << peengurangan(bilsatu, bilDua) << endl;
+            cout << "Hasil pengurangan =" << pengurangan(bilsatu, bilDua) << endl;
             break;
             case 5:
             break;
             default:
             cout << "Pilihan tidak ada" << endl;
             break;
-
         }
 
-    }
+    }while(pilihan !=5);
     
 }
