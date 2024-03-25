@@ -46,7 +46,7 @@ int main()
 
         switch (pilihan)
         {
-            case 1:
+            ase 1:
             input();
             cout << "Hasil Penjumlahan =" << penjumlahan(bilSatu, bilDua) << endl;
             break;
