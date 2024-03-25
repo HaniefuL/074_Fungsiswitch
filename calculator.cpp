@@ -52,13 +52,21 @@ int main()
             break;
             Case 2:
              Input();
-            cout << "Hasil Penjumlahan =" << penjumlahan(bilsatu, bilDua) << endl;
+            cout << "Hasil Pembagian =" << pembagian(bilsatu, bilDua) << endl;
             break;
             case 3:
              Input();
-            cout << "Hasil Penjumlahan =" << penjumlahan(bilsatu, bilDua) << endl;
+            cout << "Hasil Perkalian =" << perkalian(bilsatu, bilDua) << endl;
             break;
             case 4:
+             Input();
+            cout << "Hasil pengurangan =" << peengurangan(bilsatu, bilDua) << endl;
+            break;
+            case 5:
+            break;
+            default:
+            cout << "Pilihan tidak ada" << endl;
+            break;
 
         }
 
