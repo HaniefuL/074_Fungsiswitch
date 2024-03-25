@@ -43,6 +43,25 @@ int main()
         cout << "5. Exit " << endl;
         cout << "Masukan Pilihan 1/2/3/4/5 = ";
         cin >> pilihan;
+
+        switch (pilihan)
+        {
+            Case 1:
+            Input();
+            cout << "Hasil Penjumlahan =" << penjumlahan(bilsatu, bilDua) << endl;
+            break;
+            Case 2:
+             Input();
+            cout << "Hasil Penjumlahan =" << penjumlahan(bilsatu, bilDua) << endl;
+            break;
+            case 3:
+             Input();
+            cout << "Hasil Penjumlahan =" << penjumlahan(bilsatu, bilDua) << endl;
+            break;
+            case 4:
+
+        }
+
     }
     
 }
